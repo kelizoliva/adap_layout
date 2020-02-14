@@ -9,8 +9,28 @@
 .header-site-name-wrapper {
 	width: 100%;
 }
+.header-site-name-link {
+	text-align: left!important;
+}
+@media (min-width: 34em) {
+	.header-site-name-link {
+		background: #0074bd!important;
+		word-break: break-all;
+	}
+}
 .header-site-name-wrapper strong {
+	font-size: 1.2em;
+}
+@media (min-width: 64em) {
+  .header-site-name-wrapper strong {
 	font-size: 1.75em;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1305px){
+  .header-site-name-wrapper strong {
+	font-size: 1.2em;
+  }
+
 }
 
 h1.page-title {
