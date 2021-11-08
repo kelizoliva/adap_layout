@@ -105,3 +105,6 @@ div.messages.status:before {
 .messages.status a, .crm-container :not(.crm-footer) .messages.status a {
 	color: #adb0b2!important;
 }
+#civicrm-dashboard {
+  display: none;
+}
